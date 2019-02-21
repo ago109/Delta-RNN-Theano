@@ -23,4 +23,4 @@ If you use this code or the Delta-RNN model itself (or even better, extend it!),
     }
 
 
-Note: This code has only been minimally cleaned and offers no guarantees for practical applications. This is primarily meant to used to train simple RNN-LMs (recurrent neural network language models) on basic text corpora as in the original paper.
+Note: This code has only been minimally cleaned and offers no guarantees for practical applications, we apologize in advance for any inconvenience this might cause. This code is primarily meant to used to train simple RNN-LMs (recurrent neural network language models) on basic text corpora as in the original paper (and the sample training file was used to test that the code successfully ran).
