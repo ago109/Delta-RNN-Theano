@@ -1,0 +1,32 @@
+# Some Notes on Theano/CUDA
+# @author Alexander G. Ororbia II (these notes were created in the year 2017, so take them w/ that particular grain of salt)
+
+# Some NVIDA gpu commands 
+watch -n 0.5 nvidia-smi # fixes and prints nvidia-smi command to update every 0.5 seconds
+
+sudo nvidia-smi --gpu-reset -i 0 After installing NVCC will need to make these commands are used for path-setting to proper env variables
+export PATH=$PATH:/usr/local/cuda-8.0/bin
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/cuda-8.0/lib64
+
+# Anaconda install
+# https://www.continuum.io/downloads
+
+# OpenBLAS install/git
+# https://github.com/xianyi/OpenBLAS/wiki/Installation-Guide
+
+# Theano install/config
+# http://deeplearning.net/software/theano/install.html
+# http://deeplearning.net/software/theano/library/config.html
+# http://www.johnwittenauer.net/configuring-theano-for-high-performance-deep-learning/
+
+# Install Fuel (for data-handling in Theano)
+# http://fuel.readthedocs.io/en/latest/setup.html
+
+# To get Theano + OpenBLAS to work correctly, need to install OpenBLAS and set the
+# correct path for the library to install (in dir called "/opt/")
+# Source: https://hunseblog.wordpress.com/2014/09/15/installing-numpy-and-openblas/
+#         https://groups.google.com/forum/#!msg/theano-users/kSiHs0Auf8c/KEtUkuJxhMgJ
+
+# After installation, need to link/point Theano to the location of OpenBLAS
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/opt/openblas/lib/
+export LIBRARY_PATH=$LIBRARY_PATH:/opt/openblas/lib/
