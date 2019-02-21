@@ -30,3 +30,4 @@ export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/cuda-8.0/lib64
 # After installation, need to link/point Theano to the location of OpenBLAS
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/opt/openblas/lib/
 export LIBRARY_PATH=$LIBRARY_PATH:/opt/openblas/lib/
+# Note that the above two lines can also be found in setupCuda.sh, which can be executed by: $ . setupCuda.sh
