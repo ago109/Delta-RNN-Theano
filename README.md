@@ -12,17 +12,15 @@ There is some additional code in the /src folder that contains a procText.py scr
   
 If you use this code or the Delta-RNN model itself (or even better, extend it!), please consider citing:
 
-  @inproceedings{ororbia2017deltarnn,
-    Author = {Ororbia II, Alexander G. and Mikolov, Tomas and Reitter, David},
-    Title = {Learning Simpler Language Models with the Differential State Framework},
-    Booktitle = {Neural Computation},
-    Volume = {29},
-    Number = {12},
-    Pages = {3327-3352},
-    Year = {2017},
-    Doi = {10.1162/neco\_a\_01017},
-        note ={PMID: 28957029}
-  }
+    @article{ororbia2017deltarnn,
+        author = {Ororbia II, Alexander G. and Mikolov, Tomas and Reitter, David},
+        title = {Learning Simpler Language Models with the Differential State Framework},
+        journal = {Neural Computation},
+        volume = {29},
+        number = {12},
+        pages = {3327-3352},
+        year = {2017}
+    }
 
 
 Note: This code has only been minimally cleaned and offers no guarantees for practical applications. This is primarily meant to used to train simple RNN-LMs (recurrent neural network language models) on basic text corpora as in the original paper.
