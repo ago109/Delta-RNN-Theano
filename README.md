@@ -1,6 +1,6 @@
 # Delta-RNN-Theano
 
-Simple code to support the paper ["Learning Simpler Language Models with the Differential State Framework"](Ororbia, Mikolov, and Reitter, 2017, Neural Computation) https://www.mitpressjournals.org/action/showCitFormats?doi=10.1162/neco_a_01017.
+Simple code to support the paper ["Learning Simpler Language Models with the Differential State Framework"](https://www.mitpressjournals.org/action/showCitFormats?doi=10.1162/neco_a_01017) (Ororbia, Mikolov, and Reitter, 2017, Neural Computation).
 This code contains a set of linked Python scripts, built on top of Theano, to train and run various neural language models, particularly:
 * Long Short Term Memory (LSTM)
 * Gated Recurrent Unit (GRU)
